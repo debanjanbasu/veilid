@@ -20,7 +20,7 @@ jobs:
 
     - name: Add GitLab remote
       run: |
-        git remote add gitlab https://gitlab.com/debanjanbasu/veilid.git
+        git remote add gitlab https://gitlab.com/veilid/veilid.git
 
     - name: Fetch from GitLab
       run: |
